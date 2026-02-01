@@ -49,15 +49,6 @@ strategic-revision/
     └── task-schema.md                    # JSON schema for revision_tasks.json
 ```
 
-## Script Usage
-
-```
-python dag_validator.py revision_tasks.json                    # full analysis
-python dag_validator.py revision_tasks.json --validate-only    # Phase 3b gate check
-python dag_validator.py revision_tasks.json --task A1_control  # single task
-python dag_validator.py revision_tasks.json --quiet            # JSON only
-```
-
 Requires Python 3 and `networkx` (`pip install networkx`).
 
 ## Trigger
