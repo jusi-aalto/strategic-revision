@@ -57,7 +57,7 @@ strategic-revision/
     └── task-schema.md                    # JSON schema for revision_tasks.json
 ```
 
-Requires Python 3 and `networkx` (`pip install networkx`).
+👉 **Claude Code users!** Requires Python 3 and `networkx` (`pip install networkx`).
 
 ## Limitations
 
