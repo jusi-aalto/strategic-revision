@@ -1,6 +1,6 @@
 # strategic-revision
 
-A Claude Code skill that produces dependency-mapped revision master plans from peer review reports, with computational DAG validation using NetworkX.
+A Claude Code skill that turns peer review reports into structured revision roadmaps. Extracts every reviewer request as a separate task, maps dependencies as a directed acyclic graph, validates the graph computationally with NetworkX, and sequences work into execution blocks with co-author assignments and decision points.
 
 ## Trigger
 
