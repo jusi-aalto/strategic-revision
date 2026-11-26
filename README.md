@@ -43,6 +43,9 @@ Analyzes reviewer comments and the manuscript to produce a structured revision r
 | 4 | Critical Path Sequencing | Group tasks into execution blocks |
 | 5 | Risk & Conflict Resolution | Identify reviewer conflicts and process risks |
 | 6 | Computational Optimization | Run full NetworkX analysis and refine the roadmap |
+| 7 *(optional)* | Interactive Review Dashboard | Build a self-contained HTML side-by-side diff and progress studio (`.qmd`, `.md`, `.tex`, `.docx`, `.pdf`) |
+
+![Interactive revision review dashboard preview with synthetic accounting data](dashboard-preview.png)
 
 ## Files
 
@@ -50,10 +53,12 @@ Analyzes reviewer comments and the manuscript to produce a structured revision r
 strategic-revision/
 ├── SKILL.md                              # Skill definition and workflow
 ├── scripts/
-│   └── dag_validator.py                  # NetworkX validation script
+│   ├── dag_validator.py                  # NetworkX validation script
+│   └── build_revision_review.py          # Optional offline HTML review dashboard (.qmd/.md/.tex/.docx/.pdf)
 └── references/
     ├── phases.md                         # Phases 1-5 (including 3b) instructions
     ├── phase6-dag-validation.md          # Phase 6 optimization instructions
+    ├── phase7-review-dashboard.md        # Optional Phase 7 dashboard config schema
     └── task-schema.md                    # JSON schema for revision_tasks.json
 ```
 
